@@ -1,0 +1,101 @@
+body{
+	/*background:url("http://www.feerie.tn/themes/version1/img/bg_prod.JPG") repeat scroll 0 0 #fff;*/
+	/*z-index: -50;*/
+	background-size: contain;
+	background-image: url("http://www.feerie.tn/themes/version1/img/bg_prod.JPG");
+}
+
+#container{
+	display: grid;
+	grid-template-columns: auto auto auto ;
+	grid-gap: 1vw;
+	width: 60vw;
+    align-content: center;
+    justify-content: center;
+    background-color:#fff;
+    margin-left: 15vw;
+    color: black;
+    padding: 5vw;
+    margin-top: 2vw;
+    height: 35vw;
+
+
+}
+.item{
+	
+	 border:2px solid grey;
+	 width: 19vw;
+
+}
+
+img{
+	height: 10vw;
+	margin-left: 5vw;
+}
+
+#container img:hover{
+	
+	width: 12vw;
+	height: 12vw;
+}
+
+
+.prix{
+	position: relative;
+	/*margin-left: 5vw;*/
+	color: #e12323;
+	bottom: 1vw;
+     right: -7vw;
+}
+.price{
+	position: relative;
+	margin-left: 5vw;
+	color: #e12323;
+	bottom: 2.5vw;
+     right: 2vw;;
+
+}
+
+
+main{
+	display: flex;
+	flex-direction: column;
+}
+#article{
+	visibility: hidden;
+	height: 30vw;
+	display: flex;
+	position: relative;
+    top: -24vw;
+
+
+}
+.btn_total{
+	position: fixed;
+	color: black;
+	background-color: white;
+	right:0vw;
+
+}
+.image{
+	height: 30vw;
+	margin-right: 10vw;
+	background-color: white;
+
+}
+.details{
+background-color: white;
+
+
+}
+
+#nbr_article{
+position: absolute;
+top: 4.5vw;
+right: 30vw;
+display: flex;
+height: 2vw;
+}
+#return{
+	height: 2vw;
+}
